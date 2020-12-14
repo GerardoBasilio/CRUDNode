@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+body {
+    background: linear-gradient(black, black, darkred);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navegador {
+    margin-top: 2%;
+    width: 90%;
+    display: flex;
+}
+
+.li {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.li_ {
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    border: 2px white solid;
+}
+
+.li_:hover {
+    background-color: darkblue;
+    font-size: 18px;
+}
+
+.content {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 40px;
+    width: 100%;
+}
+
+.t1 {
+    margin-top: 50px;
+    display: flex;
+    width: 60%;
+    font-size: 18px;
+}
+
+.t2 {
+    margin-top: 4%;
+    display: flex;
+    width: 80%;
+}
+
+.t3 {
+    /* background-color: pink; */
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.t4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 150px;
+}
+
+.imghist {
+    width: 250px;
+    display: flex;
+}
+
+.imgsu {
+    display: flex;
+    width: 400px;
+}
+
+p {
+    width: 100%;
+    display: flex;
+}
+
+.formulario {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.formulario_ {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.boton {
+    margin-top: 3%;
+    width: 25%;
+    height: 40px;
+    color: black;
+}
+
+.boton_ {
+    margin-top: 3%;
+    width: 20%;
+    height: 40px;
+    color: black;
+}
+
+.dis,
+.soc {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lab {
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab_ {
+    display: flex;
+    width: 15%;
+}
+
+.e {
+    color: black;
+    display: flex;
+    width: 15%;
+}
+
+.enviar {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    width: 20%;
+    color: black;
+    justify-content: center;
+}
+
+.enviar:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+footer {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: darkgray; */
+}
+
+.f {
+    margin-top: 1%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.img_ {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.UFC {
+    display: flex;
+    margin-top: 3%;
+    width: 800px;
+}

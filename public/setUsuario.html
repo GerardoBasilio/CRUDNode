@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="validar.js"></script>
+    <title>Registrar Usuario</title>
+</head>
+
+<body>
+    <div class="nav">
+        <nav class="navegador">
+            <li class="li"><a class="li_" href="getUsuarios.html">Obtener Usuarios</a></li>
+            <li class="li"><a class="li_" href="setUsuario.html">Registar un Usuario</a></li>
+            <li class="li"><a class="li_" href="index.html">INICIO</a></li>
+            <li class="li"><a class="li_" href="updateUsuario.html">Editar un Usuario</a></li>
+            <li class="li"><a class="li_" href="deleteUsuario.html">Eliminar un Usuario</a></li>
+        </nav>
+    </div>
+
+    <div class="content">
+        <h1>Ingresa los datos del nuevo Usuario </h1>
+
+        <div class="formulario">
+            <form action="/setUsuario" class="formulario_" method="post">
+                <input required onkeypress="return valideKey2(event);" class="boton" type="text" name="nombre" placeholder="Ingresa su nombre">
+                <input required onkeypress="return valideKey2(event);" class="boton" type="text" name="apellido" placeholder="Ingresa su apellido">
+                <input required onkeypress="return valideKey2(event);" class="boton" type="text" name="turno" placeholder="Ingresa su turno">
+                <div class="dis">
+                    <p class="lab">Ingresa tu Disiplina</p>
+                    <div class="lab">
+                        <label class="lab_" for="disiplina">Funcional</label>
+                        <input required class="lab_" value="Funcional" type="radio" name="disiplina">
+                    </div>
+                    <div class="lab">
+                        <label class="lab_" for="disiplina">GYM</label>
+                        <input required class="lab_" value="GYM" type="radio" name="disiplina">
+                    </div>
+                    <div class="lab">
+                        <label class="lab_" for="disiplina">Box</label>
+                        <input required class="lab_" value="Box" type="radio" name="disiplina">
+                    </div>
+                    <div class="lab">
+                        <label class="lab_" for="disiplina">Muay thai</label>
+                        <input required class="lab_" value="Muay Thai" type="radio" name="disiplina">
+                    </div>
+                    <div class="lab">
+                        <label class="lab_" for="disiplina">Jiu Jitsu</label>
+                        <input required class="lab_" value="Jiu Jitsu" type="radio" name="disiplina">
+                    </div>
+
+                </div>
+                <div class="soc">
+                    <p class="lab">Ingresa que tipo de socio eres</p>
+                    <div class="lab">
+                        <label class="lab_" for="socio">Gerente</label>
+                        <input required class="lab_" value="Gerente" type="radio" name="socio">
+                    </div>
+                    <div class="lab">
+                        <label class="lab_" for="socio">Empleado</label>
+                        <input required class="lab_" value="Empleado" type="radio" name="socio">
+                    </div>
+                    <div class="lab">
+                        <label class="lab_" for="socio">Coach</label>
+                        <input required class="lab_" value="Coach" type="radio" name="socio">
+                    </div>
+                    <div class="lab">
+                        <label class="lab_" for="socio">Cliente</label>
+                        <input required class="lab_" value="Cliente" type="radio" name="socio">
+                    </div>
+                </div>
+                <input class="enviar" type="submit" value="Registrar">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="img_">
+        <img class="UFC" src="UFC.png" alt="">
+    </div>
+
+</body>
+<footer>
+    <h3 class="f">Creado por Basilio Hernandez Gerardo 5IV8</h3>
+    <h2 class="f">Soulles A4</h2>
+</footer>
+
+</html>
